@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         
         
         Button insert = (Button)findViewById(R.id.button2);
-        create.setOnClickListener(new View.OnClickListener() {
+        insert.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
         
        
         Button retrieve = (Button)findViewById(R.id.button3);
-        create.setOnClickListener(new View.OnClickListener() {
+        retrieve.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 		});
         
         Button delete = (Button)findViewById(R.id.button4);
-        create.setOnClickListener(new View.OnClickListener() {
+        delete.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
